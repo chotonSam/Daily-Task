@@ -5,7 +5,7 @@ export default function Title() {
         <div className="grid items-center gap-6 md:grid-cols-2">
           <div className="flex justify-center md:order-2">
             <img
-              className="max-md:w-full"
+              className="md:max-w-md max-w-52"
               src="./assets/frame.png"
               width="326"
               height="290"
