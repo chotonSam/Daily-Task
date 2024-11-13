@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <nav className="py-6 md:py-8 fixed top-0 w-full !bg-[#191D26] z-50">
-      <div className="container mx-auto flex items-center justify-between gap-x-6">
+      <div className="container mx-auto flex  items-center justify-between gap-x-6">
         {/* <!-- Logo --> */}
         <a href="/">
           <div className="flex items-center space-x-3">
@@ -25,7 +25,7 @@ export default function Header() {
               className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-teal-400 via-blue-500 to-indigo-600 tracking-wide"
               style={{ fontFamily: "Poppins, sans-serif" }}
             >
-              DailyDo
+              TaskRadar
             </h1>
           </div>
         </a>
