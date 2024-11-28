@@ -5,23 +5,23 @@ export default function Header() {
         {/* <!-- Logo --> */}
 
         <a href="/">
-          <div className="flex items-center ">
+          <div className="flex items-center  justify-center border-2 border-yellow-500 p-1 pr-2 rounded-lg">
             {/* Icon */}
-            <div className="bg-light-cyan rounded-full p-2 flex items-center justify-center">
+            <div className="rounded-full flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
-                stroke="white" /* Ensures the stroke color contrasts on a dark theme */
+                stroke="#facc15" /* Hex code for yellow-500 */
                 strokeWidth="2"
                 viewBox="0 0 24 24"
-                className="w-10 h-10"
+                className="w-9 h-9"
               >
                 <path d="M9 12l2 2 4-4" />
                 <circle cx="12" cy="12" r="9" />
               </svg>
             </div>
             {/* Text */}
-            <h1 className="text-light-cyan font-bold text-3xl">TaskCraft</h1>
+            <h1 className="text-yellow-400 font-bold text-2xl">TaskCraft</h1>
           </div>
         </a>
         {/* <!-- Logo Ends --> */}
