@@ -5,13 +5,13 @@ export default function Header() {
         {/* <!-- Logo --> */}
 
         <a href="/">
-          <div className="flex items-center">
+          <div className="flex items-center ">
             {/* Icon */}
             <div className="bg-light-cyan rounded-full p-2 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
-                stroke="rgb(245, 191, 66)" /* Applying the same RGB color to the icon's stroke */
+                stroke="white" /* Ensures the stroke color contrasts on a dark theme */
                 strokeWidth="2"
                 viewBox="0 0 24 24"
                 className="w-10 h-10"
@@ -20,10 +20,8 @@ export default function Header() {
                 <circle cx="12" cy="12" r="9" />
               </svg>
             </div>
-            {/* Text with the desired RGB color */}
-            <h1 className="text-[rgb(245,191,66)] font-bold text-3xl">
-              TaskCraft
-            </h1>
+            {/* Text */}
+            <h1 className="text-light-cyan font-bold text-3xl">TaskCraft</h1>
           </div>
         </a>
         {/* <!-- Logo Ends --> */}
